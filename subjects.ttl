@@ -6,7 +6,7 @@
 
 : a skos:ConceptScheme;
         dct:title "School subjects"@en, "Schulfächer"@de ;
-        dct:description "A small vocabulary for school subjects used as an example in the SWIB19 SkoHub workshop"@en, "Ein kleiner Beispiel-SKOS-Vokabular für den SkoHub Workshop bei der SWIB20"@de ;
+        dct:description "Test A small vocabulary for school subjects used as an example in the SWIB19 SkoHub workshop"@en, "Ein kleiner Beispiel-SKOS-Vokabular für den SkoHub Workshop bei der SWIB20"@de ;
         dct:creator <http://lobid.org/team/ap#!>; 
         dct:issued "2020-11-12" ;
         vann:preferredNamespaceUri "http://purl.org/acka47/subjects#" ;
