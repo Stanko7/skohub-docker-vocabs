@@ -4,7 +4,7 @@
 @prefix vann: <http://purl.org/vocab/vann/> .
 
 : a skos:ConceptScheme;
-        dct:title "School subjects"@en, "Schulfächer"@de, "Solski predmeti"@si ;
+        dct:title "School subjects"@en, "Schulfächer"@de ;
         dct:description "A small vocabulary for school subjects used as an example in the SWIB19 SkoHub workshop"@en, "Ein kleiner Beispiel-SKOS-Vokabular für den SkoHub Workshop bei der SWIB20"@de ;
         dct:creator <http://lobid.org/team/ap#!>; 
         dct:issued "2020-11-24" ;
