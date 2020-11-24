@@ -4,10 +4,10 @@
 @prefix vann: <http://purl.org/vocab/vann/> .
 
 : a skos:ConceptScheme;
-        dct:title "School subjects"@en, "Schulfächer"@de ;
+        dct:title "School subjects"@en, "Schulfächer"@de, "Solski predmeti"@si ;
         dct:description "A small vocabulary for school subjects used as an example in the SWIB19 SkoHub workshop"@en, "Ein kleiner Beispiel-SKOS-Vokabular für den SkoHub Workshop bei der SWIB20"@de ;
         dct:creator <http://lobid.org/team/ap#!>; 
-        dct:issued "2020-11-12" ;
+        dct:issued "2020-11-24" ;
         vann:preferredNamespaceUri "http://purl.org/acka47/subjects#" ;
         dct:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
         skos:hasTopConcept :maths, :english, :science, :history, :geography, :physics, :chemistry,
@@ -15,12 +15,12 @@
 
 :maths a skos:Concept;
         skos:topConceptOf : ;
-        skos:prefLabel "Mathematics"@en, "Mathematik"@de ;
+        skos:prefLabel "Mathematics"@en, "Mathematik"@de, "Matematika"@si ;
         skos:altLabel "Maths"@en , "Math"@en, "Mathe"@de .
 
 :english a skos:Concept;
            skos:topConceptOf : ;
-           skos:prefLabel "English"@en, "Englisch"@de .
+           skos:prefLabel "English"@en, "Englisch"@de, "Anglescina"@si  .
 
 :science a skos:Concept;
            skos:topConceptOf : ;
@@ -28,19 +28,19 @@
 
 :history a skos:Concept;
             skos:topConceptOf : ;
-            skos:prefLabel "History"@en, "Geschichte"@de .
+            skos:prefLabel "History"@en, "Geschichte"@de, "Zgodovina"@si  .
 
 :geography a skos:Concept;
             skos:topConceptOf : ;
-            skos:prefLabel "Geography"@en, "Geographie"@de .
+            skos:prefLabel "Geography"@en, "Geographie"@de, "Geografija"@si .
 
 :physics a skos:Concept;
             skos:topConceptOf : ;
-            skos:prefLabel "Physics"@en, "Physik"@de .
+            skos:prefLabel "Physics"@en, "Physik"@de, "Fizika"@si .
 
 :chemistry a skos:Concept;
             skos:topConceptOf : ;
-            skos:prefLabel "Chemistry"@en, "Chemie"@de .
+            skos:prefLabel "Chemistry"@en, "Chemie"@de, "Kemija"@si .
 
 :physicalEducation a skos:Concept;
             skos:topConceptOf : ;
@@ -48,28 +48,28 @@
 
 :computerScience a skos:Concept;
             skos:topConceptOf : ;
-            skos:prefLabel "Computer Science"@en, "Informatik"@de .
+            skos:prefLabel "Computer Science"@en, "Informatik"@de, "Racunalnistvo"@si .
 
 :biology a skos:Concept;
             skos:topConceptOf : ;
-            skos:prefLabel "Biology"@en, "Biologie"@de .
+            skos:prefLabel "Biology"@en, "Biologie"@de, "Biologija"@si .
 
 :foreignLanguages a skos:Concept;
             skos:topConceptOf : ;
             skos:narrower :german, :french, :spanish;
-            skos:prefLabel "Foreign Languages"@en, "Fremdpsrachen"@de .
+            skos:prefLabel "Foreign Languages"@en, "Fremdpsrachen"@de, "Tuji jeziki"@si .
 
 :german a skos:Concept;
             skos:inScheme : ;
             skos:broader :foreignLanguages ;
-            skos:prefLabel "German"@en, "Deutsch als Fremdsprache"@de .
+            skos:prefLabel "German"@en, "Deutsch als Fremdsprache"@de, "Nemski"@si .
 
 :french a skos:Concept;
             skos:inScheme : ;
             skos:broader :foreignLanguages ;
-            skos:prefLabel "French"@en, "Französoisch"@de .
+            skos:prefLabel "French"@en, "Französoisch"@de, "Francozski"@si .
 
 :spanish a skos:Concept;
             skos:inScheme : ;
             skos:broader :foreignLanguages ;
-            skos:prefLabel "Spanish"@en, "Spanisch"@de .
+            skos:prefLabel "Spanish"@en, "Spanisch"@de, "Spanski"@si .
